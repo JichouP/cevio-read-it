@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "CeVIO read it",
+  "version": "0.1.0",
+  "action": {
+    "default_icon": {
+      "16": "16.png",
+      "24": "24.png",
+      "32": "32.png"
+    },
+    "default_title": "CeVIO read it"
+  },
+  "description": "Let CeVIO read the text",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
